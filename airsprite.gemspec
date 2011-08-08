@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.authors     = ["John 'asceth' Long"]
   s.email       = ["machinist@asceth.com"]
   s.homepage    = "http://github.com/asceth/airsprite"
-  s.summary     = "AirPlay SDK Sprite Sheet generator"
-  s.description = "A gem for creating sprite sheets for the AirPlay SDK"
+  s.summary     = "Marmalade SDK Sprite Sheet generator"
+  s.description = "A gem for creating sprite sheets for the Marmalade SDK"
 
-  s.rubyforge_project = "bbcoder"
+  s.rubyforge_project = "airsprite"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
