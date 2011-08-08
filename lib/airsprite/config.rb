@@ -3,9 +3,22 @@ module Airsprite
 
     CONFIG_FILENAME="airsprite.yml"
 
-    mattr_accessor :scales, :path
 
     module ModuleMethods
+      def path=(value)
+        @@path = value
+      end
+      def path
+        @@path
+      end
+
+      def scales=(value)
+        @@scales = value
+      end
+      def scales
+        @@scales
+      end
+
       def parse_config_file
         self.path = Dir.pwd
 
